@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Great+Vibes&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:auto;
+    background: #fff7d0;
+}
+.Home{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.navbar{
+    width: 100%;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    background: #593B2A;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+    background-attachment: fixed;
+}
+.logo span{
+    color: #a60000;
+    font-size: 40px;
+    font-family: 'brush script MT',cursive;
+    font-weight: 1000;
+    background-color: rgb(255, 203, 98);
+    padding: 0px 15px;
+    border-radius: 50%;
+    line-height: 37.20px;
+    letter-spacing: 1.55px;
+    word-wrap: break-word;
+}
+.logo{
+    color: #ffbe98;
+    font-size: 40px;
+    font-family: 'brush script MT',cursive;
+    font-weight: 400;
+    line-height: 37.20px;
+    letter-spacing: 1.55px;
+    word-wrap: break-word;
+}
+.Menu{
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 36px;
+    display: flex;
+}
+.Menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.Menu div{
+    line-height: 24px;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+}
+.Menu a:hover{
+    font-size: 22px;
+    color: rgb(255, 203, 98);
+    cursor: pointer;
+}
+.Home1{
+    display: flex;
+    margin: 15px;
+    justify-content: space-between;
+    height: 100vh;
+}
+.Home1>Div{
+    padding: 64px;
+}
+.Intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#prof{
+    font-size: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 27px;
+}
+#name{
+    font-size: 63px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#name span{
+    color: #a60000;
+    font-family: 'brush script MT', cursive;
+    font-size: 90px;
+    font-weight: 540;
+}
+.Home img{
+    border:1px ridge #ababab;
+    border-radius: 20%;
+    box-shadow: 18px 18px #404040;
+}
