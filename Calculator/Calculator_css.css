@@ -9,7 +9,12 @@ table{
     border-radius: 20px;
     background-color: white;
 }
+table input:hover{
+    background-color: rgb(241, 238, 243);
+}
+
 input{
+    outline: 0;
     border:1px solid rgb(255, 255, 255);
     border-radius: 50px;
     background-color: rgb(251, 247, 253);
@@ -30,6 +35,9 @@ input{
 .sp input{
     color:rgb(87, 113, 52);
     font-size: 40px;
+}
+.sp2 input:hover{
+    background-color:rgb(57, 74, 34);
 }
 .sp2 input{
     background-color:rgb(87, 113, 52);
